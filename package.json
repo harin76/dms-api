@@ -1,0 +1,32 @@
+{
+  "name": "dms-api",
+  "version": "1.0.0",
+  "description": "API for koa, mongodb, gridfs based document management system",
+  "main": "app.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harin76/dms-api.git"
+  },
+  "keywords": [],
+  "author": "Hari Narasimhan <hari@canvara.co.in> (http://canvara.co.in/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/harin76/dms-api/issues"
+  },
+  "homepage": "https://github.com/harin76/dms-api#readme",
+  "dependencies": {
+    "async-busboy": "0.6.1",
+    "kcors": "2.2.1",
+    "koa": "2.3.0",
+    "koa-mount": "3.0.0",
+    "koa-router": "7.2.1",
+    "resource-providers": "git://github.com/harin76/resource-providers.git#v0.1.0"
+  }
+}
