@@ -3,6 +3,6 @@
 const config = require('./config.global')
 
 config.env = 'development'
-config.mongo.dbName = config.mongo.dbName + '_dev'
+config.mongo.db = config.mongo.db + '_dev'
 
 module.exports = config
